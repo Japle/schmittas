@@ -1,0 +1,127 @@
+/*
+Theme Name: PagSeguro WP e-Commerce
+Theme URI: http://apiki.com/pagseguro/
+Description: Tema WordPress oferecido pelo PagSeguro para você iniciar sua loja virtual
+Version: 1.0
+Author: Apiki
+Author URI: http://apiki.com/
+Tags: pagseguro, apiki, e-commerce, shop, cart
+*/
+
+@import "assets/css/reset.css";
+@import "assets/css/960.css";
+
+/* ---------------------------
+Style tags
+--------------------------- */
+body {
+    background: #f2f2f2;
+    color: #000;
+    font: 16px Arial, Georgia, Sans-Serif;
+    text-align: center;
+}
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+h1 { font-size: 32px; }
+h2 { font-size: 22px; }
+h3 { font-size: 19px; }
+a {
+    color: #000;
+    text-decoration: underline;
+}
+a:visited {
+    color: #333;
+    text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+    color: #20510F;
+    text-decoration: none;
+}
+h1, #sidebar h2 {
+    color: #20510F;
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+.title-section { margin: 10px 0 10px 10px; }
+.spacer {
+    padding: 15px;
+}
+.product {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.product-image, .product-title {
+    margin: 0 15px;
+}
+.product-category, .product-image {
+    margin: 0 0 15px;
+}
+.post {
+    line-height: 1.5em;
+}
+.pagseguro-wp-ecommerce-table {
+    width: 100%;
+}
+.pagseguro-wp-ecommerce-table th, .pagseguro-wp-ecommerce-table td {
+    padding: 10px 5px;
+    border-bottom: 1px solid #B8DA99;
+}
+
+/* --------------------------
+Layout Structure
+-------------------------- */
+#wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#header {
+    background: #fff;
+    border-bottom: 3px solid #B8DA99;
+    height: 75px;
+    padding: 15px 0;   
+}
+#header .container_12 { position: relative; }
+#searchform {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+#branding h1 { margin: 0; }
+#wrapper-content {
+    margin: 15px auto 45px;
+}
+#content {
+    float: right;
+    background: #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#sidebar {
+    background: #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+#footer {
+    background: #fff;
+    border-top: 3px solid #B8DA99;
+    font-size: 10px;
+    padding: 15px 0;
+}
+#footer .container_12 { position: relative; }
+.pagseguro-apiki {
+    float: right;
+    text-align: right;
+    width: 90%;
+}
+.pagseguro-apiki img { vertical-align: middle; }

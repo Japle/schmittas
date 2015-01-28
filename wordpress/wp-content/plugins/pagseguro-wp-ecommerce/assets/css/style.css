@@ -1,0 +1,42 @@
+#pswpe_zipcode_1 {
+    width: 40px;
+}
+#pswpe_zipcode_2 {
+    width: 25px;
+}
+.pswpe-hide { display: none; }
+.iwpb-hide { display: none }
+.iwpb_required {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+.iwpb_success {
+    padding: 10px;
+    border: 1px solid #009900;
+    background-color: #99CC00;
+    color: #fff;
+    font-size: 1.2em;
+}
+#frm-iwpb {
+    text-align: left; /* fix the text-align: center in default theme */
+}
+#moip-wp-ecommerce-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 2px solid #999;
+}
+#moip-wp-ecommerce-table th, #moip-wp-ecommerce-table td {
+    text-align: left;
+    padding: 10px 5px;
+    border-bottom: 1px solid #999;
+}
+#moip-wp-ecommerce-table th { border-width: 2px }
+#moip-wp-ecommerce-table tfoot td { text-align: right }
+.moip-wp-ecommerce-quantity {
+    width: 3em;
+}
+.moip-wp-ecommerce-btn-remove {
+    color: #c00;
+    display: block;
+    font-size: 0.9em;
+}

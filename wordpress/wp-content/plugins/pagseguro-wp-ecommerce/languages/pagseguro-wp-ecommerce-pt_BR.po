@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PagSeguro WP e-Commerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-12 22:38-0300\n"
+"PO-Revision-Date: 2010-08-12 22:39-0300\n"
+"Last-Translator: Leandro Vieira Pinho <eu@leandrovieira.com>\n"
+"Language-Team: Apiki <leandro@apiki.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-pagseguro.php:3
+msgid "PagSeguro WP e-Commerce - PagSeguro options"
+msgstr "PagSeguro WP e-Commerce - Opções do PagSeguro"
+
+#: ../options-pagseguro.php:7
+msgid "The PagSeguro options have been saved."
+msgstr "As opções do PagSeguro foram salvas."
+
+#: ../options-pagseguro.php:13
+#: ../options-pagseguro.php:17
+msgid "E-mail charging"
+msgstr "E-mail de cobrança"
+
+#: ../options-pagseguro.php:24
+#: ../options-pagseguro.php:28
+msgid "Shipping method"
+msgstr "Método de entrega"
+
+#: ../options-pagseguro.php:31
+msgid "Freight by weight (calculated by PagSeguro)"
+msgstr "Frete por peso (calculado pelo PagSeguro)"
+
+#: ../options-pagseguro.php:32
+#: ../pagseguro-wp-ecommerce.php:629
+#: ../pagseguro-wp-ecommerce.php:632
+msgid "Freight fixed"
+msgstr "Frete fixo"
+
+#: ../options-pagseguro.php:33
+msgid "Freight FREE"
+msgstr "Frete grátis"
+
+#: ../options-pagseguro.php:37
+msgid "Your Zip Code"
+msgstr "Seu CEP"
+
+#: ../options-pagseguro.php:38
+msgid "Define a freight fixed to be used if the calculation fails. R$ "
+msgstr "Defina um valor fixo a ser considerado quando o cálculo falhar. RS"
+
+#: ../options-pagseguro.php:43
+msgid "per product."
+msgstr "por produto."
+
+#: ../options-pagseguro.php:50
+msgid "Save the PagSeguro options"
+msgstr "Salvar as opções do PagSeguro"
+
+#: ../options-wp.php:3
+msgid "PagSeguro WP e-Commerce - WordPress options"
+msgstr "PagSeguro WP e-Commerce - Opções do WordPress"
+
+#: ../options-wp.php:7
+msgid "The WordPress options have been saved."
+msgstr "As opções do WordPress foram salvas."
+
+#: ../options-wp.php:13
+#: ../options-wp.php:18
+msgid "Products category"
+msgstr "Categoria de produtos"
+
+#: ../options-wp.php:14
+msgid "To select your posts defined like a product, PagSeguro WP e-Commerce uses the categories to find them. Define the categories you'll use to yours products. The categories child will be considered too."
+msgstr "Para selecionar seus posts definidos como produto, PagSeguro WP e-Commerce utiliza as categorias para encontra-los. Defina a categoria que você usará para seus produtos. As categorias filhas também são consideradas."
+
+#: ../options-wp.php:25
+#: ../options-wp.php:30
+msgid "Shopping cart page"
+msgstr "Página do Carrinho de compras"
+
+#: ../options-wp.php:26
+msgid "Define the page where yours users will manage the purchases. Use the shortcode <code>[pagseguro-wp-ecommerce-cart]</code> to show the PagSeguro WP e-Commerce shopping cart."
+msgstr "Defina a página onde seus usuários gerenciará suas compras. Utilize o shortcode <code>[pagseguro-wp-ecommerce-cart]</code> para exibir o carrinho de compras do PagSeguro WP e-Commerce."
+
+#: ../options-wp.php:37
+#: ../options-wp.php:42
+msgid "Confirmation page"
+msgstr "Página de confirmação"
+
+#: ../options-wp.php:38
+msgid "Define the confirmation page where the visitors will be redirected after the purchase. You need to inform the URL of this page in PagSeguro configurations."
+msgstr "Defina a página de confirmação"
+
+#: ../options-wp.php:49
+#: ../options-wp.php:54
+msgid "Buy button text"
+msgstr "Texto do botão Comprar"
+
+#: ../options-wp.php:50
+msgid "Define the text used in the buy button text. This button is used to yours users add the products into shopping cart."
+msgstr "Defina o texto utilizado no botão Comprar. Este botão é utilizado para seus usuários adicionarem novos produtos ao carrinho de compras."
+
+#: ../options-wp.php:62
+msgid "Save the WordPress options"
+msgstr "Salvar as opções do WordPress"
+
+#: ../pagseguro-wp-ecommerce.php:245
+#: ../pagseguro-wp-ecommerce.php:280
+msgid "PagSeguro WP e-Commerce"
+msgstr "PagSeguro WP e-Commerce"
+
+#: ../pagseguro-wp-ecommerce.php:246
+msgid "WordPress options"
+msgstr "Opções do WordPress"
+
+#: ../pagseguro-wp-ecommerce.php:247
+msgid "PagSeguro options"
+msgstr "Opções do PagSeguro"
+
+#: ../pagseguro-wp-ecommerce.php:296
+msgid "Product price"
+msgstr "Preço do produto"
+
+#: ../pagseguro-wp-ecommerce.php:302
+msgid "Product weight"
+msgstr "Peso do produto"
+
+#: ../pagseguro-wp-ecommerce.php:306
+msgid "It will be used to calculate the shipping cost. Use kilogram unit."
+msgstr "O peso será utilizado para calcular o valor do frete. A unidade é kilograma."
+
+#: ../pagseguro-wp-ecommerce.php:310
+msgid "Product code"
+msgstr "Código do produto"
+
+#: ../pagseguro-wp-ecommerce.php:314
+msgid "Define the product code used in your store. It can help you identify it among others."
+msgstr "Defina o código do produto utilizado em sua loja. Isto lhe ajudará identifica-lo entre os demais."
+
+#: ../pagseguro-wp-ecommerce.php:318
+msgid "Delivery information"
+msgstr "Informações de entrega"
+
+#: ../pagseguro-wp-ecommerce.php:320
+msgid "How many days the users need to wait to receive this product? Show information about the delivery proccess."
+msgstr "Quantos dias seus usuários precisam esperar para receber este produto? Descreva informações sobre o processo de entrega."
+
+#: ../pagseguro-wp-ecommerce.php:470
+msgid "Do you really want remove this item?"
+msgstr "Você realmente deseja excluir este item?"
+
+#: ../pagseguro-wp-ecommerce.php:524
+msgid "Any product in your shopping cart"
+msgstr "Nenhum produto em seu carrinho de compras."
+
+#: ../pagseguro-wp-ecommerce.php:570
+msgid "Remove this product"
+msgstr "Remover este produto"
+
+#: ../pagseguro-wp-ecommerce.php:571
+msgid "Remove"
+msgstr "Remover"
+
+#: ../pagseguro-wp-ecommerce.php:590
+msgid "Product"
+msgstr "Produto"
+
+#: ../pagseguro-wp-ecommerce.php:591
+msgid "Quantity"
+msgstr "Qtd."
+
+#: ../pagseguro-wp-ecommerce.php:592
+msgid "Unit value"
+msgstr "Valor unitário"
+
+#: ../pagseguro-wp-ecommerce.php:593
+msgid "Total value"
+msgstr "Valor total"
+
+#: ../pagseguro-wp-ecommerce.php:598
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: ../pagseguro-wp-ecommerce.php:600
+#: ../pagseguro-wp-ecommerce.php:637
+#: ../pagseguro-wp-ecommerce.php:644
+#: ../pagseguro-wp-ecommerce.php:654
+msgid "R$"
+msgstr "R$"
+
+#: ../pagseguro-wp-ecommerce.php:607
+msgid "Enter the delivery address zip code to calculate the value of service delivery:"
+msgstr "Digite o CEP do endereço de entrega para calcular o valor do serviço de entrega:"
+
+#: ../pagseguro-wp-ecommerce.php:619
+msgid "Choose the delivery method"
+msgstr "Escolha o método de entrega"
+
+#: ../pagseguro-wp-ecommerce.php:622
+msgid "Sedex"
+msgstr "Sedex"
+
+#: ../pagseguro-wp-ecommerce.php:625
+msgid "PAC"
+msgstr "PAC"
+
+#: ../pagseguro-wp-ecommerce.php:636
+#: ../pagseguro-wp-ecommerce.php:652
+msgid "Total"
+msgstr "Total"
+
+#: ../pagseguro-wp-ecommerce.php:642
+msgid "Freight value"
+msgstr "Valor do frete"
+
+#: ../pagseguro-wp-ecommerce.php:669
+msgid "Continue buying"
+msgstr "Continue comprando"
+
+#: ../pagseguro-wp-ecommerce.php:743
+msgid "PagSeguro WP e-Commerce requires WordPress 2.9 or higher. <a href=\"http://wordpress.org/download/\">Download WordPress</a> and update your version."
+msgstr "PagSeguro WP e-Commerce requer a versão 2.9 ou superior do WordPress. <a href=\"http://wordpress.org/download/\">Faça o download do WordPress</a> e atualize sua versão."
+
+#: ../pagseguro-wp-ecommerce.php:775
+#, php-format
+msgid "PagSeguro WP e-Commerce requires settings. Go to <a href=\"%s\">Settings page</a> to configure it."
+msgstr "PagSeguro WP e-Commerce requer configurações. Va para à <a href=\"%s\">página de Configurações</a> e o configure."
+
+#~ msgid "Freight by weight"
+#~ msgstr "Frete por peso"
